@@ -1,0 +1,84 @@
+:host, ::before, ::after {
+--button-bottom-border-width: 1px;
+--button-bottom-border-spacing: 2px;
+}
+
+.hero-sect {
+    object-fit: cover;
+}
+
+.hero-section {
+    background-image: url('../../../public/images/family-outdoor_web.webp');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    /* Add more background-related styles if needed */
+  }
+  
+  .hero-content {
+    padding-top: 450px;
+  }
+  .hero-content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .hero-content-container h2 {
+    font-size: 5rem;
+    line-height: 2rem;
+    color: rgb(255, 255, 255);
+    font-family: VerlagSSm, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+  } 
+  .hero-content-container p {
+    font-size: 1.2rem;
+    line-height: 1rem;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-weight: 300;
+    font-family: VerlagSSm, sans-serif;
+  }
+  .but {
+    background-color: #fff;
+    border: 0px;
+    color: #141e55;
+    cursor: pointer;    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-inline: 34px;
+    margin-bottom: 3px;
+    padding-bottom: 9px;
+    padding-top: 12px;
+    font-size: 11px;
+    letter-spacing: 2px;
+    line-height: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: verlagSSm, sans-serif;
+  }
+
+  /* mobile view */
+
+  @media (max-width: 600px) {
+    .hero-content {
+    padding-top: 400px;
+  }
+  .hero-content-container {
+    padding: 0 20px;
+  }
+  .hero-content-container h2 {
+    font-size: 2.25rem;
+    line-height: 1rem;    
+  }
+  .hero-content-container p {
+    font-size: 13px;
+  }
+
+}
