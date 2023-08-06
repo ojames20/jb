@@ -1,0 +1,195 @@
+.login-nav {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    height: 15vh;
+}
+.login-nav-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 20px;
+}
+.logo h2 {
+    font-family: "Verlag" , sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #001489;
+    line-height: 1.2;
+    font-size: 22px;
+    margin-bottom: 0.5rem;
+    margin-top: 2rem;
+}
+.login-content {
+    width: 100%;
+    padding: 100px 0;
+    box-shadow: inset 0px 15px 15px -10px rgba(0,0,0,0.2), inset 0px -15px 15px -10px rgba(0,0,0,0.2);
+    background-color: #F3F3EC;
+}
+.login-content-container {
+    max-width: 1140px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.form-holder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.login-form {
+    box-shadow: 0 30px 20px -25px #bbb;
+    margin: 0 auto;
+    background-color: white;
+    padding: 45px;
+    max-width: 600px;
+}
+.login-form h3 {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 19px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #001489;
+    line-height: 1.2;
+    font-family: sans-serif;
+}
+.form-group {
+    margin-bottom: 1rem;
+
+}
+.form-group p {
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.form-group label {
+    font-size: 13px;
+    margin-bottom: 5px;
+    white-space: nowrap;
+    font-weight: normal;
+    display: inline-block;
+    cursor: default;
+}
+.form-group input {
+    font-size: 12px;
+    padding: 6px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 32px;
+    color: #717c7d;
+    font-weight: 400;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    outline: 0;
+    border-color: #001489;
+    box-shadow: 0 0 0 0.1rem rgba(0, 20, 137, 0.1);
+
+}
+.login-button {
+    background-color: #001489;
+    border-color: #001489;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 1;
+    text-decoration: none;
+}
+.login-button:hover {
+    background-color: #fff;
+    color: #001489;
+    border: 1px solid #001489;
+}
+.divider {
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+   
+    margin: 50px 0 25px 0;
+}
+.below-text {
+    font-size: 14px;
+}
+
+.login-footer {
+    width: 100%;
+    background-color: #fff;
+    padding: 30px 0 20px 0;
+}
+.login-footer-container {
+    max-width: 1140px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.footer-row {
+    display: flex;
+    flex-wrap: wrap;    
+}
+.footer-col-divider {
+    height: 1px;
+    margin: 20px 15px;
+    border-bottom: 1px solid #99a1d0;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.footer-links1 {
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+}
+.liinnk {
+    font-size: 12px;
+    margin-right: 15px;
+    color: #001489;
+    white-space: nowrap;
+}
+.footer-copy {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+.footer-copy p {
+    font-size: 12px;
+    color: #001489;
+    text-align: right;
+}
+@media (max-width: 600px) {
+    .login-nav {
+        height: 12vh;
+    }
+    .logo h2 {
+        margin-bottom: 1rem;
+        font-size: 18px;
+    }
+    .login-content-container {
+        max-width: 1140px;
+        
+    } 
+    .liinnk {
+        display: block;
+        padding-bottom: 10px;
+    }
+    .down {
+        padding-left: 20px;
+    }
+    .footer-copy p {
+        text-align: left;
+        margin-top: 20px;
+    }
+    .footer-copy {
+        width: 100%;
+    }
+}
